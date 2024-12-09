@@ -1,24 +1,10 @@
-# Byte-compiled / optimized / DLL files
+# Ignore Python cache
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
-*.pyd
 
 # Virtual environment
-venv/
-env/
+.venv/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# TensorFlow/ML Model files
-*.h5
-*.ckpt
-*.pb
-*.onnx
-weights/
-models/
-
-# Logs and debug files
-*.log
-debug/
+# IDE settings
+.idea/
